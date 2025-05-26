@@ -1,11 +1,11 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.9 Chrome/134.0.6998.205 Electron/35.4.0 Safari/537.36" version="27.0.9">
   <diagram name="Class Diagram" id="PLx9gfqX9H52YJfp1PkC">
-    <mxGraphModel dx="1584" dy="2141" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="842" dy="2901" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="ElbaNmQMGniGqtxpY4-M-10" value="class Book" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="-290" width="200" height="280" as="geometry" />
+          <mxGeometry x="570" y="-290" width="200" height="280" as="geometry" />
         </mxCell>
         <mxCell id="ElbaNmQMGniGqtxpY4-M-12" value="ISBN: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="ElbaNmQMGniGqtxpY4-M-10">
           <mxGeometry y="30" width="200" height="30" as="geometry" />
@@ -80,7 +80,7 @@
           <mxGeometry y="280" width="200" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ElbaNmQMGniGqtxpY4-M-44" value="class Reservation" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="270" y="240" width="200" height="190" as="geometry" />
+          <mxGeometry x="370" y="180" width="200" height="190" as="geometry" />
         </mxCell>
         <mxCell id="ElbaNmQMGniGqtxpY4-M-45" value="&lt;p style=&quot;white-space-collapse: preserve;&quot; dir=&quot;auto&quot;&gt;id: Integer&lt;/p&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="ElbaNmQMGniGqtxpY4-M-44">
           <mxGeometry y="30" width="200" height="30" as="geometry" />
