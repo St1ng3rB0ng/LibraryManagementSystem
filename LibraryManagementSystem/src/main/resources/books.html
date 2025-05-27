@@ -1,10 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns:th="http://www.thymeleaf.org">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <title>Список книг</title>
 </head>
 <body>
-$END$
+<h1>Книги в бібліотеці</h1>
+<table>
+    <tr>
+        <th>Назва</th>
+        <th>Автори</th>
+        <th>ISBN</th>
+    </tr>
+    <tr th:each="book : ${books}">
+        <td th:text="${book.name}"></td>
+        <td th:text="${book.authors}"></td>
+        <td th:text="${book.isbn}"></td>
+    </tr>
+</table>
 </body>
 </html>
